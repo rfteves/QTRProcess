@@ -38,8 +38,8 @@ public class MainGmailX {
         System.getProperties().setProperty("mail.smtp.port", Utility.getApplicationProperty("mail.smtp.port"));
         System.getProperties().put("mail.smtp.auth", "true");
         System.getProperties().put("mail.smtp.starttls.enable", "true");
-        //MainGmailX.doit("Keurig/All", "after:2017-04-01 before:2017-07-01 from:order_confirmation@keurig.com");
-        MainGmailX.doit("Costco/All", "after:2017-08-01 before:2017-09-01 from:orderstatus@costco.com ");
+        MainGmailX.doit("Keurig/All", "after:2017-07-01 before:2017-10-01 from:order_confirmation@keurig.com");
+        //MainGmailX.doit("Costco/All", "after:2017-09-01 before:2017-10-01 from:orderstatus@costco.com ");
         //MainGmailX.doit("SamsClub/Orders", "subject:\"order confirmation\" after:2017-07-01 before:2017-10-01");
     }
     private static BigDecimal total = BigDecimal.ZERO;
