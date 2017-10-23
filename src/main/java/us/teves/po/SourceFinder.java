@@ -24,12 +24,12 @@ public class SourceFinder {
      */
     public static void main(String[] args) throws Exception {
         // TODO code application logic here
-        String host = "teves.us";
-        String username = "purser@teves.us";
+        String host = "";
+        String username = "";
         if (true) {
-            username = "admin@teves.us";
+            username = "";
         }
-        String password = "kop0io9";
+        String password = "";
 
 // Create empty properties
         Properties props = new Properties();

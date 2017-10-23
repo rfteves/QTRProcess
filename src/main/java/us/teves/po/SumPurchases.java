@@ -124,8 +124,8 @@ public class SumPurchases {
         if (order.getFullname() != null) {
             MONITOR.getUser().setText(order.getFullname());
         }
-        String host = "teves.us";
-        String password = "kop0io9";
+        String host = "";
+        String password = "";
 
 // Create empty properties
         Properties props = new Properties();

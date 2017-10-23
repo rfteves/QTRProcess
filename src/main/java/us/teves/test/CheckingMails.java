@@ -80,8 +80,8 @@ public class CheckingMails {
 
         String host = "outlook.office365.com";// change accordingly
         String mailStoreType = "imaps";
-        String username = "ricardo.teves@bluestem.com";// change accordingly
-        String password = "Bhu8Vgy7";// change accordingly
+        String username = "";// change accordingly
+        String password = "";// change accordingly
 
         check(host, mailStoreType, username, password);
 

@@ -103,8 +103,8 @@ public class MySQLPO {
 
     public static void doit(String username, String basedate, String uptoDate, int i, int ordinal) throws Exception {
         // TODO code application logic here
-        String host = "teves.us";
-        String password = "kop0io9";
+        String host = "";
+        String password = "";
 
 // Create empty properties
         Properties props = new Properties();

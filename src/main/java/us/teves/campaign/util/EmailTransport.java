@@ -39,10 +39,10 @@ public class EmailTransport implements Serializable {
         System.getProperties().put("mail.smtp.host", "smtp.gmail.com");
         System.getProperties().put("mail.smtp.port", "587");
 
-        System.getProperties().put("mail.username", "reports@drapers.com");
-        Sytem.getProperties().put("mail.password", "Areports12");*/
-        /*System.getProperties().put("mail.username", "reports@drapers.com");
-        System.getProperties().put("mail.password", "Areports12");
+        System.getProperties().put("mail.username", "");
+        Sytem.getProperties().put("mail.password", "");*/
+        /*System.getProperties().put("mail.username", "");
+        System.getProperties().put("mail.password", "");
         System.getProperties().put("mail.smtp.STARTTLS.enable", "true");
 
         System.getProperties().put("mail.transport.protocol", "smtps");

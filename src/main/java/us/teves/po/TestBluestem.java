@@ -23,8 +23,8 @@ public class TestBluestem {
 
         //System.getProperties().setProperty("mail.smtp.host", "smtp.office365.com");
         System.getProperties().setProperty("mail.imap.host", "outlook.office365.com");
-        //System.getProperties().setProperty("mail.username", "reports@bluestem.com");
-        //System.getProperties().setProperty("mail.password", "Mko0Nji9");
+        //System.getProperties().setProperty("mail.username", "");
+        //System.getProperties().setProperty("mail.password", "");
         //System.getProperties().setProperty("mail.smtp.port", "587");
         System.getProperties().setProperty("mail.imap.port", "993");
         System.getProperties().put("mail.imap.auth", "true");
